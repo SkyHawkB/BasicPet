@@ -1,0 +1,12 @@
+name: BasicPet
+version: 1.3
+main: com.github.skyhawkb.basicpet.BasicPet
+commands:
+  dog:
+    description: Summon a pet dog!
+    usage: /dog
+    permission: basicpet.pet.dog
+  cat:
+    description: Summon a pet cat!
+    usage: /cat
+    permission: basicpet.pet.cat
